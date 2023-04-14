@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PollCreatorComponent } from './poll-creator/poll-creator.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PollCreatorComponent
   ],
   imports: [
     BrowserModule,
