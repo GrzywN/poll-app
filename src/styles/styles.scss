@@ -1,0 +1,16 @@
+:root {
+  --primary: #3949ab;
+}
+
+html {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
